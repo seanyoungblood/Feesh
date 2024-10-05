@@ -38,7 +38,14 @@ function App() {
 }
 
 function Home() {
-  return <h1>Feesh Finder App (Testing v1)</h1>;
+  return (
+    <html>
+      <h1>Feesh Finder App (testing)</h1>
+      <body>
+        <p>This application is used to test functionality for a mobile app (coming soon)</p>
+      </body>
+    </html>  
+  );
 }
 
 export default App;
