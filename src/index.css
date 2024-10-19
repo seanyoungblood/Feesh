@@ -21,6 +21,7 @@ code {
   margin: 10px;
   border-radius: 50%;
   opacity: 0.7;
+  z-index: 1;
 }
 
 h1 {
@@ -29,4 +30,9 @@ h1 {
 
 p {
   color: white;
+}
+
+li {
+  z-index: 2;
+  position: relative;
 }
