@@ -6,12 +6,13 @@ import PredictTime from './PredictTime';
 import PredictLure from './PredictLure';
 import PredictTides from './PredictTides';
 import About from './About'
+import LogoWithTxt from './LogoWithTxt.png'
 
 function App() {
   return (
     <div className="App">
        <div className="note">
-          <p>Youngblood Software, LLC</p>
+          <img src={LogoWithTxt} className='LogoWithTxt'></img>
         </div>
       <header className="App-header">
         <nav>
