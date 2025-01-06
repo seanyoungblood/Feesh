@@ -42,7 +42,7 @@ function PredictLure() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://FeeshFlask.onrender.com/predictLure', formData)
+    axios.post('https://feeshflaskdocker.onrender.com/predictLure', formData)
       .then((res) => setResponse(res.data.result))
       .catch((err) => console.error(err));
   };

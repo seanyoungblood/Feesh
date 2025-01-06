@@ -40,7 +40,7 @@ function PredictTides() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://FeeshFlask.onrender.com/predictTides', formData)
+    axios.post('https://feeshflaskdocker.onrender.com/predictTides', formData)
       .then((res) => setResponse(res.data))
       .catch((err) => console.error(err));
   };

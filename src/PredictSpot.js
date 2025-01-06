@@ -40,7 +40,7 @@ function PredictSpot() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://FeeshFlask.onrender.com/predictSpot', formData)
+    axios.post('https://feeshflaskdocker.onrender.com/predictSpot', formData)
       .then((res) => setResponse(res.data.result))
       .catch((err) => console.error(err));
   };

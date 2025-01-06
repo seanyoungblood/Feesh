@@ -38,7 +38,7 @@ function PredictTime() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://FeeshFlask.onrender.com/predictTime', formData)
+    axios.post('https://feeshflaskdocker.onrender.com/predictTime', formData)
       .then((res) => setResponse(res.data.result))
       .catch((err) => console.error(err));
   };
